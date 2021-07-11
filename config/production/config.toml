@@ -1,2 +1,2 @@
-baseurl = "https://doks.netlify.app/"
+baseurl = "https://review-bots.github.io/"
 canonifyURLs = true
