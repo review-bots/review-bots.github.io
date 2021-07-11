@@ -1,0 +1,60 @@
+{{ define "main" }}
+<section class="section container-fluid mt-n3 pb-3">
+  <div class="container">
+    <div class="row justify-content-center">
+      
+      <div class="col-lg-3 text-right">
+        <img width="120px" src={{ .Params.icon }} alt="Square" class="border-0 rounded-circle" >
+      </div>
+      <div class="col-lg-6 text-center">
+        <h1 class="mt-0;">{{ .Params.Title }}</h1>
+      </div>
+      <div class="col-lg-3 text-center"></div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-lg-3 text-right"></div>
+      <div class="col-lg-6 text-center">
+        <p class="lead">{{ .Params.lead | safeHTML }}</p>
+      </div>
+      <div class="col-lg-3 text-center"></div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-lg-3 text-right">
+        <a class="btn btn-primary btn-lg px-4 mb-2" href="{{ .Params.install_url | relURL }}" role="button">Install</a>
+      </div>
+      <div class="col-lg-6 text-center">
+        <img width="480px" src={{ .Params.app_image }} alt="Square" style="border-style: solid; border-width: 1px; box-shadow: 4px 4px #888888;">
+      </div>
+      <div class="col-lg-3 text-right"></div>
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{ define "sidebar-prefooter" }}
+<section class="section section-sm">
+  <div class="container">
+    <div class="row justify-content-center text-center">
+      <div class="col-lg-3">
+        <p>{{ .Params.column1 | safeHTML }}</p>
+      </div>
+      <div class="col-lg-3">
+        <p>{{ .Params.column2 | safeHTML }}</p>
+      </div>
+      <div class="col-lg-3">
+        <p>{{ .Params.column3 | safeHTML }}</p>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{ define "sidebar-footer" }}
+<section class="section section-sm container-fluid">
+  <div class="row justify-content-center text-center">
+    <div class="col-lg-9">
+      {{- .Content -}}
+    </div>
+  </div>
+</section>
+{{ end }}
