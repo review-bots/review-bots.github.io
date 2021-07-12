@@ -1,12 +1,12 @@
 
 [[main]]
-  name = "The Label Bot"
-  url = "/app/label-bot"
+  name = "The Guide Bot"
+  url = "/app/guide-bot"
   weight = 20
 
 [[main]]
-  name = "The Guide Bot"
-  url = "/app/guide-bot"
+  name = "The Label Bot"
+  url = "/app/label-bot"
   weight = 20
 
 
