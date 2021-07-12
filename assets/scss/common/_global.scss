@@ -46,10 +46,10 @@ h6,
   }
 }
 
-.home h1 {
-  /* font-size: calc(1.375rem + 1.5vw); */
-  font-size: calc(1.875rem + 1.5vw);
-}
+// .home h1 {
+//   font-size: calc(1.375rem + 1.5vw);
+//   // font-size: calc(1.875rem + 1.5vw);
+// }
 
 a:hover,
 a:focus {
@@ -62,8 +62,8 @@ a.btn:focus {
 }
 
 .section {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
 }
 
 .section-md {
@@ -226,4 +226,20 @@ body {
 
 .katex {
   font-size: $font-size-md;
+}
+
+// custom css
+.icon-image {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  max-height: 80px;
+  transform: translate(0, -50%);
+}
+
+.app-image {
+  max-width: 90%;
+  border-style: solid;
+  border-width: 1px;
+  box-shadow: 6px 6px #888;
 }
