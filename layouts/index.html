@@ -2,17 +2,20 @@
 <section class="section container-fluid mt-n3 pb-3">
   <div class="container">
     <div class="row justify-content-center">
-      <div class="col-lg-2">
-        <img width="80%" src="/letter-r.jpeg" alt="Square" class="border-0 rounded-circle">
+      <div class="col-3 col-lg-2" style="position: relative">
+        <img src="/letter-r.jpeg" alt="Square" class="border-0 rounded-circle icon-image">
       </div>
-      <div class="col-lg-5 text-center">
-        <h1 class="mt-0">{{ .Title }}</h1>
+      <div class="col-9 col-lg-5 text-center">
+        <h1>{{ .Title }}</h1>
       </div>
+      <div class="col-3 col-lg-2"></div>
     </div>
     <div class="row justify-content-center">
+      <div class="col-3 col-lg-2"></div>
       <div class="col-lg-9 col-xl-8 text-center">
         <p class="lead">{{ .Params.lead | safeHTML }}</p>
       </div>
+      <div class="col-3 col-lg-2"></div>
     </div>
   </div>
 </section>
