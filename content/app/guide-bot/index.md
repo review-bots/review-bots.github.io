@@ -8,7 +8,8 @@ images: []
 icon: letter-g.jpeg
 install_url: https://github.com/marketplace/guide-bot
 app_image: pr-failed.jpg
-column1: Supports Issues and Pull Requests.
-column2: Requested to update description and complete activities.
-column3: Create <a href="https://docs.github.com/en/github/collaborating-with-pull-requests/collaborating-on-repositories-with-code-quality-features/about-status-checks">Status Checks</a> on Pull Requests.
+rows:
+  - column1: Supports Issues and Pull Requests.
+    column2: Requested to update description and complete activities.
+    column3: Create <a href="https://docs.github.com/en/github/collaborating-with-pull-requests/collaborating-on-repositories-with-code-quality-features/about-status-checks">Status Checks</a> on Pull Requests.
 ---
