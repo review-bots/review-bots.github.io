@@ -13,6 +13,6 @@ rows:
     column2: Enables reviewers to prioritise Pull Requests.
     column3: Use label events to trigger <a href='https://github.com/review-bots?q=example' target='_blank'>custom automation</a>.
   - column1: Labels are updated when changes are made.
-    column2: <a href='https://github.com/review-bots/label-bot/issues/new' target='_blank'>Raise an Issue</a>
+    column2: <button type="button" class="btn"><a class="btn btn-primary btn-md px-4" href='https://github.com/review-bots/label-bot/issues/new' target="_blank" role="button">Raise an Issue</a></button>
     column3: Pull Requests made by a bot are not labelled.
 ---
