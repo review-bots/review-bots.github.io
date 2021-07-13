@@ -11,8 +11,8 @@ app_image: pr-labelled-final.jpg
 rows:
   - column1: Contributors receive immediate feedback.
     column2: Enables reviewers to prioritise Pull Requests.
-    column3: Automate your workflow to reduce effort.
-  - column1:
-    column2: Skips PRs made by bots.
-    column3:
+    column3: Use label events to trigger <a href='https://github.com/review-bots?q=example' target='_blank'>custom automation</a>.
+  - column1: Labels are updated when changes are made.
+    column2: <a href='https://github.com/review-bots/label-bot/issues/new' target='_blank'>Raise an Issue</a>
+    column3: Pull Requests made by a bot are not labelled.
 ---

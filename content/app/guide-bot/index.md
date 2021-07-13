@@ -12,4 +12,5 @@ rows:
   - column1: Supports Issues and Pull Requests.
     column2: Requested to update description and complete activities.
     column3: Create <a href="https://docs.github.com/en/github/collaborating-with-pull-requests/collaborating-on-repositories-with-code-quality-features/about-status-checks">Status Checks</a> on Pull Requests.
+  - column2: <a href='https://github.com/review-bots/guide-bot/issues/new' target='_blank'>Raise an Issue</a>
 ---
