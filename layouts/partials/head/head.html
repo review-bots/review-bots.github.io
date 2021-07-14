@@ -9,6 +9,6 @@
   {{ block "head/script-header" . }}{{ partial "head/script-header.html" . }}{{ end }}
 
   {{ if .Site.Params.googleAnalyticsID }}
-  {{ partial "analytics-gtag.html" . }}
+  {{ partial "head/analytics-gtag.html" . }}
   {{ end }}
 </head>
