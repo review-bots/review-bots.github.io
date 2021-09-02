@@ -12,5 +12,6 @@ rows:
   - column1: Supports Issues and Pull Requests.
     column2: Prompts details to be filled and activities completed.
     column3: Creates <a href="https://docs.github.com/en/github/collaborating-with-pull-requests/collaborating-on-repositories-with-code-quality-features/about-status-checks">Status Checks</a> on Pull Requests.
-  - column2: <button type="button" class="btn"><a class="btn btn-primary btn-md px-4" href='https://github.com/review-bots/guide-bot/issues/new' target="_blank" role="button">Raise an Issue</a></button>
+  - column1: Issue and Pull Request templates define the expectations.
+    column2: <button type="button" class="btn"><a class="btn btn-primary btn-md px-4" href='https://github.com/review-bots/guide-bot/issues/new' target="_blank" role="button">Raise an Issue</a></button>
 ---
